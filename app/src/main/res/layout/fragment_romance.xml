@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RomanceFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="222dp"
+        android:layout_height="1052dp"
+        android:src="@drawable/game3" />
+
+    <TextView
+        android:id="@+id/romance_sinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sinopsis film : Love Revolution mengisahkan tentang Goo Joo Young, seorang siswa SMA yang lucu dan menyenangkan. Kemudian ia jatuh cinta pada pandangan pertama kepada Wa Ja Rim, siswi SMA yang populer karena kecantikannya. Gong Joo Young pun berusaha memenangkan hati Wa Ja Rim meski kerap mendapat respons yang dingin."
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+</FrameLayout>
